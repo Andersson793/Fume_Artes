@@ -6,11 +6,6 @@
   font-family: 'BebasNeue'
 }
 
-@font-face {
-  font-family: 'BebasNeue';
-  src: url('../font/Bebas_Neue/BebasNeue-Regular.ttf');
-}
-
 header{
   display: flex;
   align-items: center;
