@@ -22,29 +22,34 @@ section{
 
 .texto-serviços{
   position: relative;
-  width: 90%;
-  max-width: 600px;
+  width: 91%;
+  max-width: 610px;
   margin: 50px auto;
+}
+
+.texto-serviços h1{
+  font-size: 1.45em;
 }
 
 .texto-serviços .borda-superior{
   position: absolute;
   top: -17px;
   left: -15px;
-  border-top: 7px solid black;
-  border-left: 7px solid black;
+  background-image: url('./imagens/borda-superior.svg');
+  background-repeat: no-repeat;
   width: 45px;
   height: 45px;
-}
+} 
 
 .texto-serviços .borda-inferior{
   position: absolute;
   bottom: -17px;
   right: -15px;
-  border-bottom: 7px solid red;
-  border-right: 7px solid red;
+  background-image: url('./imagens/borda-inferior.svg');
+  background-repeat: no-repeat;
   width: 45px;
   height: 45px;
+
 }
 
 .titulo-seção{
@@ -68,7 +73,7 @@ section{
 
 .titulo-seção .linha{
   position: absolute;
-  width: 90%;
+  width: 80%;
   height: 2px;
   background-color: black;
 }
@@ -118,8 +123,8 @@ section{
 }
 
 .conteiner-serviços .imagens img{
-  max-width: 100%;
-  height: 350px;
+  max-width: 95%;
+  height: 330px;
   margin: 5px 2px;
 }
 
@@ -146,11 +151,11 @@ section{
 }
 
 .conteiner-contato #circulo-img{
-  width: 20em;
-  height: 20em;
+  width: 19em;
+  height: 19em;
   border-radius: 50%;
   border: 5px solid black;
-  background-image: url('imagens/IMG-20200207-WA0002.jpg');
+  background-image: url('imagens/IMG-20200207-WA0002.webp');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
