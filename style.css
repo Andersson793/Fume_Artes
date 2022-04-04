@@ -23,7 +23,7 @@ section{
 .texto-serviços{
   position: relative;
   width: 91%;
-  max-width: 610px;
+  max-width: 600px;
   margin: 50px auto;
 }
 
@@ -123,6 +123,7 @@ section{
 }
 
 .conteiner-serviços .imagens img{
+  width: auto;
   max-width: 95%;
   height: 330px;
   margin: 5px 2px;
@@ -188,7 +189,16 @@ footer{
 }
 
 footer .social{
-  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+footer .social img{
+  cursor: pointer;
+}
+
+footer .social-ícone, footer .share-ícone{
   margin-top: 15px;
-  width: 100px;
 }
