@@ -1,9 +1,14 @@
+@font-face {
+  font-family: 'BebasNeuer';
+  src: url(BebasNeue-Regular.ttf);
+}
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'BebasNeuer';
 }
 
 header{
