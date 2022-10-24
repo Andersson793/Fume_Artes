@@ -1,0 +1,23 @@
+/* tailwind-css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'BebasNeuer';
+  src:
+    local("BebasNeuer"),
+    local("BebasNeuer Regular"),
+    url(BebasNeue-Regular.ttf);
+}
+
+body{
+  font-family: BebasNeuer;
+}
+
+@media screen and (max-width: 720px) {
+  .hidden-on-small-device{
+    display: none;
+  } 
+}
