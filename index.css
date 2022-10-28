@@ -15,9 +15,3 @@
 body{
   font-family: BebasNeuer;
 }
-
-@media screen and (max-width: 720px) {
-  .hidden-on-small-device{
-    display: none;
-  } 
-}

@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="11.90625mm"
-   height="11.892298mm"
-   viewBox="0 0 11.90625 11.892298"
+   width="11.952759mm"
+   height="11.966194mm"
+   viewBox="0 0 11.952759 11.966195"
    version="1.1"
    id="svg5"
    sodipodi:docname="borda-superior.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,31 +24,27 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="9.9672356"
-     inkscape:cx="22.523798"
-     inkscape:cy="22.473634"
-     inkscape:window-width="1366"
-     inkscape:window-height="699"
+     inkscape:cx="22.674291"
+     inkscape:cy="24.580537"
+     inkscape:window-width="1440"
+     inkscape:window-height="831"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg5" />
+     inkscape:current-layer="svg5"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#505050" />
   <defs
      id="defs2" />
   <g
-     id="layer1"
-     transform="rotate(180,8.1090656,6.4275147)">
-    <g
-       id="g302">
-      <path
-         id="rect256"
-         style="fill:#000000;stroke-width:0.166727"
-         d="M 48.332031,5.4980469 V 37.533203 H 16.296875 V 48.585938 H 48.332031 59.384766 V 37.533203 5.4980469 Z"
-         transform="scale(0.26458333)" />
-      <path
-         id="rect168"
-         style="fill:#df0000;stroke-width:0.166727"
-         d="M 50.244141,3.6386719 V 35.673828 H 18.208984 V 46.724609 H 50.244141 61.296875 V 35.673828 3.6386719 Z"
-         transform="scale(0.26458333)" />
-    </g>
+     id="g191">
+    <path
+       id="rect256"
+       style="fill:#000000;stroke-width:0.0441132"
+       d="M 2.9243694,11.966194 V 3.4902262 H 11.400338 V 0.56585671 H 2.9243694 0 V 3.4902262 11.966194 Z" />
+    <path
+       id="rect168"
+       style="fill:#df0000;stroke-width:0.0441132"
+       d="M 3.4767904,11.39982 V 2.9238524 H 11.952759 V 0 H 3.4767904 0.55242117 V 2.9238524 11.39982 Z" />
   </g>
 </svg>

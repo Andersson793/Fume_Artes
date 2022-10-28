@@ -1,4 +1,4 @@
-const buttonShare = document.getElementById('share');
+const buttonShare = document.getElementById('button-share');
 
 const shareData = {
     text: "Fumê Artes - aplicação de película fumê para carros e caminhões, adesivos, canecas personalizadas e mais.",
