@@ -12,4 +12,4 @@ buttonShare.addEventListener('click', async () => {
   }else{
     alert('O seu navegador não suporta esta ação');
   }
-});
+})
