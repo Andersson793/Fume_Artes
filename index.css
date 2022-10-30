@@ -7,9 +7,10 @@
 @font-face {
   font-family: 'BebasNeuer';
   src:
-    local("BebasNeuer"),
+    local("BebasNeuer-Regular"),
     local("BebasNeuer Regular"),
     url(BebasNeue-Regular.ttf);
+    font-display: swap;
 }
 
 body{
