@@ -30,7 +30,7 @@
         <img title="fumê artes" class="h-10 aspect-auto" src="./assets/logo.svg" alt="Fumê Artes">
       </a>
       <!--rede social-->
-      <a href="https://www.instagram.com/fume_artes/">
+      <a class="hidden sm:block" href="https://www.instagram.com/fume_artes/">
         <img class="h-8 aspect-auto" title="instagram" src="./assets/instagram.png" alt="Instagram">
       </a>
     </header>
@@ -47,8 +47,7 @@
           class="absolute left-0 top-0" 
         >
         <h1 class="text-3xl">
-          fumê artes aplicação de película fumê e adesivos para carros e caminhões
-          , e muito mais.
+          fumê artes aplicação de película fumê para carros e caminhões, adesivos personalizados, e muito mais.
         </h1>
         <img src="./assets/borda-inferior.svg"
           class="absolute right-0 bottom-0"
@@ -59,10 +58,12 @@
     <main>
       <section>
         <!--título de seção-->
-        <div class="flex justify-center items-center w-full mt-20 mb-10">
-          <div class="h-0.5 w-1/3 bg-black"></div>
-          <h2 class="text-2xl mx-5">GALERIA</h2>
-          <div class="h-0.5 w-1/3 bg-black"></div>
+        <div class="flex justify-center items-center mt-20 mb-10">
+          <div class="flex items-center w-11/12 sm:w-4/6">
+            <div class="h-0.5 w-full bg-black"></div>
+            <h2 class="text-2xl w-auto px-4 whitespace-nowrap">GALERIA</h2>
+            <div class="h-0.5 w-full bg-black"></div>
+          </div>
         </div>
         <!--galeria de imagens-->
         <!--linha 1-->
@@ -126,10 +127,12 @@
       <!--seção contato-->
       <section>
           <!--título de seção-->
-          <div class="flex justify-center items-center w-full mt-20 mb-10">
-            <div class="h-0.5 w-1/3 bg-black"></div>
-            <h2 class="text-2xl mx-5">CONTATO</h2>
-            <div class="h-0.5 w-1/3 bg-black"></div>
+          <div class="flex justify-center items-center mt-20 mb-10">
+            <div class="flex items-center w-11/12 sm:w-4/6">
+              <div class="h-0.5 w-full bg-black"></div>
+              <h2 class="text-2xl w-auto px-4 whitespace-nowrap">CONTATO</h2>
+              <div class="h-0.5 w-full bg-black"></div>
+            </div>
           </div>
   
           <div class="flex flex-col sm:flex-row justify-center items-center">
@@ -150,10 +153,12 @@
       <!--seção loja-->
       <section>
           <!--título de seção-->
-          <div class="flex justify-center items-center w-full mt-20 mb-10">
-            <div class="h-0.5 w-1/3 bg-black"></div>
-            <h2 class="text-2xl mx-5">NOSSA LOJA</h2>
-            <div class="h-0.5 w-1/3 bg-black"></div>
+          <div class="flex justify-center items-center mt-20 mb-10">
+            <div class="flex items-center w-11/12 sm:w-4/6">
+              <div class="h-0.5 w-full bg-black"></div>
+              <h2 class="text-2xl w-auto px-4 whitespace-nowrap">NOSSA LOJA</h2>
+              <div class="h-0.5 w-full bg-black"></div>
+            </div>
           </div>
 
           <div class="text-center">
@@ -169,10 +174,12 @@
       <!--seção atendimento-->
       <section>
         <!--título de seção-->
-        <div class="flex justify-center items-center w-full mt-20 mb-10">
-          <div class="h-0.5 w-1/3 bg-black"></div>
-          <h2 class="text-2xl mx-5">ATENDIMENTO</h2>
-          <div class="h-0.5 w-1/3 bg-black"></div>
+        <div class="flex justify-center items-center mt-20 mb-10">
+          <div class="flex items-center w-11/12 sm:w-4/6">
+            <div class="h-0.5 w-full bg-black"></div>
+            <h2 class="text-2xl w-auto px-4 whitespace-nowrap">ATENDIMENTO</h2>
+            <div class="h-0.5 w-full bg-black"></div>
+          </div>
         </div>
 
         <div class="text-center">
@@ -187,18 +194,21 @@
     <!--footer-->
     <footer class="bg-black text-center text-white mt-10">
       <div class="flex flex-row flex-wrap justify-around pt-5">
-        <div class="flex flex-row items-center  mb-10">
-          <a class="mr-8" href="https://fume-artes.netlify.app/">
+
+        <div class="flex flex-row items-center mb-10 mr-10">
+          <a class="mr-11" href="https://fume-artes.netlify.app/">
             <img class="h-8 aspect-auto" src="./assets/logo-transparente.svg" alt="FUMÊ ARTES">
           </a>
           <a href="https://www.instagram.com/fume_artes/">
             <img class="h-7 aspect-auto" src="./assets/instagram.png" alt="instagram">
           </a>
         </div>
-        <div class="flex flex-row items-center  mb-10">
-          <span class="mr-8">compartilhe</span>
-          <img id="button-share" class="h-8 aspect-auto cursor-pointer" src="./assets/share.png">
+
+        <div id="button-share" class="flex flex-row items-center cursor-pointer bg-white text-black rounded-3xl mb-10 px-3 py-1">
+          <p class="mr-8 text-lg">compartilhe</p>
+          <img class="h-8 w-auto" src="./assets/share.png">
         </div>
+
       </div>
       <p>fumê artes - CNPJ: 37.149.133/0001-34</p>
     </footer>
