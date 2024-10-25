@@ -1,3 +1,4 @@
+import 'virtual:uno.css'
 const buttonShare = document.getElementById('button-share');
 
 const shareData = {
