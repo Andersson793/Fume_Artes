@@ -1,12 +1,16 @@
-@font-face {
-  font-family: 'BebasNeuer';
-  src:
-    local("BebasNeuer-Regular"),
-    local("BebasNeuer Regular"),
-    url(BebasNeue-Regular.ttf);
-    font-display: swap;
+@unocss;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-  font-family: BebasNeuer;
+body {
+    font-family: "Bebas Neue", sans-serif;
+    font-display: optional;
+
+    img {
+        object-fit: fill;
+    }
 }

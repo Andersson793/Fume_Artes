@@ -2,18 +2,19 @@
   "name": "fume_artes",
   "private": true,
   "version": "2.0.0",
+  "type": "module",
   "author": {
     "name": "Andersson S. Gonlaves",
     "email": "anderssonsilva793@gmail.com"
   },
-  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "unocss": "^0.63.4",
-    "vite": "^5.4.9"
+    "@unocss/postcss": "^0.63.6",
+    "unocss": "^0.63.6",
+    "vite": "^5.4.10"
   }
 }
