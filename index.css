@@ -8,9 +8,21 @@
 
 body {
     font-family: "Bebas Neue", sans-serif;
-    font-display: optional;
 
     img {
         object-fit: fill;
+    }
+
+    .galery {
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .galery {
+        div {
+            height: 20rem;
+        }
     }
 }
