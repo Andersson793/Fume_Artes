@@ -13,7 +13,9 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@iconify-json/basil": "^1.2.1",
     "@unocss/postcss": "^0.63.6",
+    "@unocss/preset-icons": "^0.63.6",
     "unocss": "^0.63.6",
     "vite": "^5.4.10"
   }

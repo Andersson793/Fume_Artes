@@ -1,8 +1,15 @@
-import { defineConfig, presetUno } from "unocss";
+import { defineConfig, presetUno, presetIcons } from "unocss";
 
 export default defineConfig({
   content: {
-    filesystem: ["**/*.{html,js,ts,jsx,tsx,vue,svelte,astro}"],
+    filesystem: ["**/*.{html,js}"],
   },
-  presets: [presetUno()],
+  presets: [
+    presetUno(),
+    presetIcons({
+      extraProperties: {
+        display: "block",
+      },
+    }),
+  ],
 });
