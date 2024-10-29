@@ -1,4 +1,4 @@
-import { defineConfig, presetUno, presetIcons } from "unocss";
+import { defineConfig, presetUno, presetIcons, presetWebFonts } from "unocss";
 
 export default defineConfig({
   content: {
@@ -11,5 +11,11 @@ export default defineConfig({
         display: "block",
       },
     }),
+    presetWebFonts({
+      provider: 'bunny',
+      fonts: {
+        name: 'Bebas Neue'
+      }
+    })
   ],
 });
